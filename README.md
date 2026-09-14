@@ -1,8 +1,8 @@
-# FundPath 🎓📈
+# FundPath
 
 FundPath is a comprehensive web app that bridges the gap between scholarship discovery and long-term wealth management. It matches students with eligible grants using an AI agent, and once an award is accepted, helps them allocate and invest those funds wisely with human-in-the-loop AI assistance.
 
-## 🚀 Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
 

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "sch-001",
+    "country": "IN",
+    "name": "National Merit Scholarship for STEM Students",
+    "amount": 75000,
+    "eligibility": {
+      "minGpa": 8.5,
+      "fields": ["Engineering", "Computer Science", "Mathematics", "Physics"],
+      "incomeCeiling": 800000,
+      "location": "India",
+      "firstGen": false,
+      "genderRestricted": null
+    },
+    "deadline": "2027-01-31",
+    "effort": "high",
+    "pros": [
+      "High award amount covers significant tuition",
+      "Nationally recognized — adds prestige to resume",
+      "Renewable for 3 additional years if GPA maintained"
+    ],
+    "cons": [
+      "Very competitive — thousands of applicants nationwide",
+      "Requires two recommendation letters and a 1,500-word essay",
+      "GPA must remain above 8.5 each semester to retain award"
+    ],
+    "applySteps": [
+      "Download the application form from the National Scholarship Portal (NSP)",
+      "Collect two recommendation letters from faculty members on institutional letterhead",
+      "Write a personal statement (1,500 words) on your STEM achievements and goals",
+      "Gather certified copies of mark sheets for the last two academic years",
+      "Upload all documents and submit the completed form through the NSP portal before the deadline"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Applicant's academic profile did not meet the final selection criteria",
+      "Application documents were incomplete or could not be verified in time",
+      "Budget constraints reduced the number of awards issued this year"
+    ]
+  },
+  {
+    "id": "sch-002",
+    "country": "IN",
+    "name": "First-Generation College Student Grant",
+    "amount": 40000,
+    "eligibility": {
+      "minGpa": 6.0,
+      "fields": ["Any"],
+      "incomeCeiling": 600000,
+      "location": "India",
+      "firstGen": true,
+      "genderRestricted": null
+    },
+    "deadline": "2027-02-28",
+    "effort": "low",
+    "pros": [
+      "Open to all fields of study — no subject restriction",
+      "Low GPA requirement — accessible to more students",
+      "Simple one-page application with no essay"
+    ],
+    "cons": [
+      "Requires proof that neither parent attended college",
+      "One-time grant, not renewable",
+      "Award amount is moderate relative to annual tuition costs"
+    ],
+    "applySteps": [
+      "Obtain a first-generation affidavit signed by both parents before a notary or gazetted officer",
+      "Collect income certificate from the appropriate government authority",
+      "Attach self-attested copies of your admission letter and photo ID proof",
+      "Submit the completed one-page application form along with all documents"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "First-generation status could not be verified from submitted documents",
+      "Applicant's household income exceeded the ceiling at time of verification",
+      "Application received after the final submission deadline"
+    ]
+  },
+  {
+    "id": "sch-003",
+    "country": "IN",
+    "name": "Women in Technology Excellence Award",
+    "amount": 50000,
+    "eligibility": {
+      "minGpa": 7.5,
+      "fields": ["Computer Science", "Information Technology", "Data Science", "Engineering"],
+      "incomeCeiling": 1200000,
+      "location": "India",
+      "firstGen": false,
+      "genderRestricted": "Female"
+    },
+    "deadline": "2027-03-15",
+    "effort": "medium",
+    "pros": [
+      "No restrictive income ceiling for middle-income families",
+      "Includes mentorship pairing with an industry professional",
+      "Builds community with other women in tech fields"
+    ],
+    "cons": [
+      "Restricted to female applicants only",
+      "Requires participation in at least two annual program events",
+      "Fields of study are limited to technology disciplines"
+    ],
+    "applySteps": [
+      "Register an account on the Women in Technology Foundation portal",
+      "Upload a 500-word essay on your contributions or aspirations in technology",
+      "Provide two reference contacts from academic or industry supervisors",
+      "Agree to the program's mentorship participation terms",
+      "Submit your application before the deadline via the foundation portal"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Essay did not meet the minimum word count or quality criteria",
+      "Reference contacts were unresponsive before the selection deadline",
+      "Applicant's field of study is outside the eligible technology disciplines"
+    ]
+  },
+  {
+    "id": "sch-004",
+    "country": "IN",
+    "name": "Rural Talent Development Scholarship",
+    "amount": 30000,
+    "eligibility": {
+      "minGpa": 6.5,
+      "fields": ["Agriculture", "Rural Development", "Environmental Science", "Any"],
+      "incomeCeiling": 400000,
+      "location": "India",
+      "firstGen": false,
+      "genderRestricted": null
+    },
+    "deadline": "2027-04-30",
+    "effort": "medium",
+    "pros": [
+      "Specifically designed for underrepresented rural applicants",
+      "Includes free access to online learning platforms for one year",
+      "Moderate effort required — short essay plus transcripts"
+    ],
+    "cons": [
+      "Requires proof of rural domicile certificate",
+      "Strict income ceiling may exclude many applicants",
+      "Award amount is fixed and not adjusted for inflation"
+    ],
+    "applySteps": [
+      "Obtain a rural domicile certificate from your village panchayat or tehsildar",
+      "Collect income certificate showing household income below the ₹4,00,000 ceiling",
+      "Write a short essay (500 words) on your challenges and aspirations",
+      "Gather academic transcripts and submit all documents to the district education office"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Rural domicile certificate could not be verified",
+      "Household income exceeded the eligibility ceiling at time of verification",
+      "Budget constraints reduced the number of awards issued this year"
+    ]
+  },
+  {
+    "id": "sch-005",
+    "country": "IN",
+    "name": "Inclusive Excellence Scholarship",
+    "amount": 60000,
+    "eligibility": {
+      "minGpa": 7.0,
+      "fields": ["Social Sciences", "Humanities", "Law", "Education", "Any"],
+      "incomeCeiling": 700000,
+      "location": "India",
+      "firstGen": false,
+      "genderRestricted": null
+    },
+    "deadline": "2027-02-15",
+    "effort": "medium",
+    "pros": [
+      "Broad field eligibility covers most degree programmes",
+      "Emphasizes community impact over academic rank alone",
+      "Provides networking events and alumni access"
+    ],
+    "cons": [
+      "Requires documented community service of at least 50 hours",
+      "Application includes a 20-minute group interview round",
+      "Competition is moderate but growing each year"
+    ],
+    "applySteps": [
+      "Document 50+ hours of community service with organiser signatures on official letterhead",
+      "Write a 750-word community impact statement describing your service and its outcomes",
+      "Complete the online application form with academic transcripts attached",
+      "Attend a 20-minute group interview (scheduled via email after shortlisting)",
+      "Submit all materials through the foundation's secure online portal"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Community service hours could not be independently verified",
+      "Group interview performance did not meet the selection panel's criteria",
+      "Application documents were submitted after the final deadline"
+    ]
+  },
+  {
+    "id": "sch-006",
+    "country": "US",
+    "name": "STEM Future Leaders Scholarship",
+    "amount": 12000,
+    "eligibility": {
+      "minGpa": 3.5,
+      "fields": ["Computer Science", "Engineering", "Mathematics", "Physics", "Data Science"],
+      "incomeCeiling": 65000,
+      "location": "United States",
+      "firstGen": false,
+      "genderRestricted": null
+    },
+    "deadline": "2027-02-01",
+    "effort": "high",
+    "pros": [
+      "Substantial award — covers a full semester of tuition at many state schools",
+      "Nationally recognized foundation with strong alumni network",
+      "Includes a paid summer research internship opportunity"
+    ],
+    "cons": [
+      "Highly competitive — typically fewer than 3% acceptance rate",
+      "Requires three reference letters and a two-round interview process",
+      "Household income ceiling may exclude middle-class families"
+    ],
+    "applySteps": [
+      "Create an account and complete the Common Application on the STEM Leaders portal",
+      "Request three letters of recommendation from teachers, professors, or mentors",
+      "Write a 1,000-word personal essay on a STEM challenge you solved and its impact",
+      "Provide official high school or college transcripts sealed by the institution",
+      "Complete a 30-minute virtual interview if shortlisted (notifications sent by email)"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Interview performance did not meet the selection committee's criteria",
+      "Household income exceeded the $65,000 annual ceiling at verification",
+      "Required GPA of 3.5 was not met based on official transcripts"
+    ]
+  },
+  {
+    "id": "sch-007",
+    "country": "US",
+    "name": "First-Generation Opportunity Grant",
+    "amount": 8000,
+    "eligibility": {
+      "minGpa": 2.8,
+      "fields": ["Any"],
+      "incomeCeiling": 48000,
+      "location": "United States",
+      "firstGen": true,
+      "genderRestricted": null
+    },
+    "deadline": "2027-03-15",
+    "effort": "low",
+    "pros": [
+      "Open to all fields of study with a low GPA threshold",
+      "Straightforward application — no essay or interview required",
+      "Renewable annually provided income and enrollment requirements are met"
+    ],
+    "cons": [
+      "Requires notarized proof that neither parent holds a bachelor's degree",
+      "Strict income ceiling limits eligibility for working-class but not low-income families",
+      "Award amount is fixed and does not cover full tuition at most four-year universities"
+    ],
+    "applySteps": [
+      "Obtain a notarized affidavit confirming neither parent holds a 4-year college degree",
+      "Gather proof of income (most recent federal tax return or W-2 forms)",
+      "Complete the one-page online application form on the foundation website",
+      "Attach your unofficial transcript showing cumulative GPA of 2.8 or higher"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "First-generation status could not be verified from submitted documents",
+      "Household income exceeded the $48,000 annual ceiling at verification",
+      "Application was received after the March 15 deadline"
+    ]
+  },
+  {
+    "id": "sch-008",
+    "country": "US",
+    "name": "Community Leadership Excellence Award",
+    "amount": 10000,
+    "eligibility": {
+      "minGpa": 3.0,
+      "fields": ["Social Sciences", "Education", "Law", "Business", "Any"],
+      "incomeCeiling": 80000,
+      "location": "United States",
+      "firstGen": false,
+      "genderRestricted": null
+    },
+    "deadline": "2027-01-20",
+    "effort": "medium",
+    "pros": [
+      "Strong award amount with flexible field eligibility",
+      "Values community service over purely academic metrics",
+      "Recipients join a leadership cohort with annual summit access"
+    ],
+    "cons": [
+      "Requires at least 100 documented volunteer hours in the past two years",
+      "Two-stage application including a written submission and panel interview",
+      "Competition has grown significantly in recent years"
+    ],
+    "applySteps": [
+      "Log at least 100 volunteer hours with signed confirmation from each organization",
+      "Write a 600-word leadership impact statement describing your most impactful initiative",
+      "Submit two letters of recommendation from community leaders or faculty",
+      "Complete the online application form and upload all documents before January 20",
+      "Attend a 45-minute panel interview if selected as a finalist"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Volunteer hours documentation was insufficient or could not be verified",
+      "Panel interview did not meet the committee's leadership assessment criteria",
+      "Application documents were received after the deadline"
+    ]
+  },
+  {
+    "id": "sch-009",
+    "country": "UK",
+    "name": "STEM Excellence Bursary",
+    "amount": 7500,
+    "eligibility": {
+      "minGpa": 65,
+      "fields": ["Computer Science", "Engineering", "Mathematics", "Physics", "Data Science"],
+      "incomeCeiling": 42500,
+      "location": "United Kingdom",
+      "firstGen": false,
+      "genderRestricted": null
+    },
+    "deadline": "2027-02-28",
+    "effort": "high",
+    "pros": [
+      "Award covers a significant portion of UK tuition fees (£9,250 per year cap)",
+      "Foundation provides career mentoring from STEM industry professionals",
+      "Renewable for each year of study, subject to grade maintenance"
+    ],
+    "cons": [
+      "Requires a predicted or achieved grade of 65% or above across core modules",
+      "Competitive — accepts only 5% of applicants nationally",
+      "Two-stage process including a technical problem-solving test"
+    ],
+    "applySteps": [
+      "Register on the STEM Excellence Bursary portal and complete the personal profile",
+      "Upload your latest academic transcript or predicted grades letter from your university",
+      "Complete a 45-minute online technical reasoning assessment (no preparation needed)",
+      "Write a 500-word statement on a real-world engineering or technology problem and your proposed solution",
+      "Attend a virtual final-round interview with two foundation assessors if shortlisted"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Academic grades did not meet the 65% minimum threshold at verification",
+      "Technical assessment score was below the qualifying benchmark",
+      "Application was submitted after the February 28 closing date"
+    ]
+  },
+  {
+    "id": "sch-010",
+    "country": "UK",
+    "name": "First-Generation University Scholarship",
+    "amount": 5000,
+    "eligibility": {
+      "minGpa": 55,
+      "fields": ["Any"],
+      "incomeCeiling": 25000,
+      "location": "United Kingdom",
+      "firstGen": true,
+      "genderRestricted": null
+    },
+    "deadline": "2027-04-01",
+    "effort": "low",
+    "pros": [
+      "Open to all degree subjects with an accessible grade requirement",
+      "Simple application with no interview stage",
+      "Helps bridge the attainment gap for first-in-family students"
+    ],
+    "cons": [
+      "Requires proof that neither parent holds a UK degree or equivalent",
+      "Strict household income ceiling (below £25,000) limits eligibility",
+      "One-time payment — not renewable in subsequent academic years"
+    ],
+    "applySteps": [
+      "Request a letter from your university's widening participation office confirming first-generation status",
+      "Gather proof of household income (P60 or Universal Credit award letter for the most recent tax year)",
+      "Complete the two-page application form on the scholarship foundation website",
+      "Submit your official or provisional academic transcript along with the application"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "First-generation status could not be confirmed by the submitted documentation",
+      "Household income exceeded the £25,000 ceiling at verification",
+      "Application received after the April 1 deadline"
+    ]
+  },
+  {
+    "id": "sch-011",
+    "country": "UK",
+    "name": "Community Achievement Award",
+    "amount": 6000,
+    "eligibility": {
+      "minGpa": 60,
+      "fields": ["Social Sciences", "Humanities", "Education", "Law", "Any"],
+      "incomeCeiling": 42500,
+      "location": "United Kingdom",
+      "firstGen": false,
+      "genderRestricted": null
+    },
+    "deadline": "2027-03-10",
+    "effort": "medium",
+    "pros": [
+      "Broad subject eligibility with a moderate grade threshold",
+      "Recognises volunteering and civic contribution alongside academic merit",
+      "Recipients invited to an annual leadership summit and professional network"
+    ],
+    "cons": [
+      "Requires 80+ hours of documented volunteering within the past 18 months",
+      "Two-stage application including a written submission and telephone interview",
+      "Award amount will not fully cover UK tuition fees for a single year"
+    ],
+    "applySteps": [
+      "Compile a volunteering log showing 80+ hours with signatures from each organisation",
+      "Write a 500-word personal statement on the community impact of your volunteering",
+      "Request one academic and one community reference letter",
+      "Submit all materials via the foundation's online portal before March 10",
+      "Attend a 20-minute telephone interview if selected as a finalist"
+    ],
+    "rejectionReasons": [
+      "Award fully allocated to other applicants this cycle",
+      "Volunteering hours could not be independently verified",
+      "Telephone interview did not meet the panel's criteria",
+      "Application grade average was below the 60% minimum threshold"
+    ]
+  }
+]

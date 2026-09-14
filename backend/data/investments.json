@@ -1,0 +1,359 @@
+[
+  {
+    "id": "inv-001",
+    "country": "IN",
+    "name": "Public Provident Fund (PPF)",
+    "type": "Government Bond",
+    "minAmount": 500,
+    "riskCategory": "low",
+    "durationFit": ["long"],
+    "lockInMonths": 180,
+    "typicalAnnualReturnPct": 7.1,
+    "pros": [
+      "Backed by Government of India — zero default risk",
+      "Interest earned is fully tax-free under Section 80C",
+      "Flexible partial withdrawal allowed from Year 7 onward"
+    ],
+    "cons": [
+      "15-year lock-in period significantly limits liquidity",
+      "Returns are set by government and may not outpace inflation",
+      "Annual contribution capped at ₹1.5 lakh per account"
+    ]
+  },
+  {
+    "id": "inv-002",
+    "country": "IN",
+    "name": "Nifty 50 Index Fund (Direct Growth)",
+    "type": "Equity Mutual Fund",
+    "minAmount": 500,
+    "riskCategory": "moderate",
+    "durationFit": ["medium", "long"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 12.0,
+    "pros": [
+      "Broad diversification across 50 large-cap Indian companies",
+      "Low expense ratio compared to actively managed funds",
+      "No lock-in — fully redeemable any business day"
+    ],
+    "cons": [
+      "Returns fluctuate with market conditions — can be negative in downturns",
+      "Short-term capital gains taxed at 15% if redeemed within one year",
+      "Not suitable if funds may be needed within 1–2 years"
+    ]
+  },
+  {
+    "id": "inv-003",
+    "country": "IN",
+    "name": "Bank Fixed Deposit (1-Year)",
+    "type": "Fixed Deposit",
+    "minAmount": 1000,
+    "riskCategory": "low",
+    "durationFit": ["short", "medium"],
+    "lockInMonths": 12,
+    "typicalAnnualReturnPct": 6.8,
+    "pros": [
+      "Guaranteed returns with DICGC deposit insurance up to ₹5 lakh",
+      "Simple to open online — no demat account required",
+      "Interest paid quarterly, providing predictable income"
+    ],
+    "cons": [
+      "1-year lock-in; premature withdrawal attracts a 1% penalty",
+      "Interest income is fully taxable at your income-tax slab rate",
+      "Returns typically do not outpace long-run inflation"
+    ]
+  },
+  {
+    "id": "inv-004",
+    "country": "IN",
+    "name": "Liquid Mutual Fund",
+    "type": "Liquid Mutual Fund",
+    "minAmount": 500,
+    "riskCategory": "low",
+    "durationFit": ["short"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 6.5,
+    "pros": [
+      "Highly liquid — redemption typically credited within one business day",
+      "Lower interest-rate risk than longer-duration debt funds",
+      "Good emergency-buffer parking option for scholarship awards"
+    ],
+    "cons": [
+      "Returns are lower than equity or even most FDs in the long run",
+      "Gains taxed as short-term capital gains if held under 3 years",
+      "Fund NAV can dip slightly during extreme credit events"
+    ]
+  },
+  {
+    "id": "inv-005",
+    "country": "IN",
+    "name": "Small-Cap Growth Fund (Direct)",
+    "type": "Equity Mutual Fund",
+    "minAmount": 5000,
+    "riskCategory": "high",
+    "durationFit": ["long"],
+    "lockInMonths": 36,
+    "typicalAnnualReturnPct": 18.0,
+    "pros": [
+      "Highest historical long-run return potential among listed options",
+      "Exposure to emerging companies in fast-growing sectors",
+      "SIP option allows disciplined, rupee-cost-averaged investing"
+    ],
+    "cons": [
+      "High volatility — portfolio value can drop 30–50% in bear markets",
+      "Recommended minimum horizon of 5–7 years to ride out downturns",
+      "Not appropriate if the funds may be needed within the next 3 years"
+    ]
+  },
+  {
+    "id": "inv-006",
+    "country": "IN",
+    "name": "Sectoral / Thematic ETF (Technology)",
+    "type": "Exchange-Traded Fund",
+    "minAmount": 500,
+    "riskCategory": "high",
+    "durationFit": ["medium", "long"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 15.0,
+    "pros": [
+      "Targeted exposure to high-growth technology sector companies",
+      "No lock-in — traded on exchange like a stock during market hours",
+      "Lower expense ratio than actively managed sectoral funds"
+    ],
+    "cons": [
+      "Sector concentration risk — a single-sector downturn hits hard",
+      "Short-term capital gains taxed at 15% if sold within one year",
+      "Requires a demat account and understanding of ETF trading mechanics"
+    ]
+  },
+  {
+    "id": "inv-007",
+    "country": "IN",
+    "name": "Corporate Bond Fund (Short Duration)",
+    "type": "Debt Mutual Fund",
+    "minAmount": 1000,
+    "riskCategory": "moderate",
+    "durationFit": ["short", "medium"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 8.2,
+    "pros": [
+      "Higher returns than savings accounts or liquid funds with manageable risk",
+      "No lock-in period — can be redeemed in 1–3 business days",
+      "Portfolio of investment-grade corporate bonds spreads credit risk"
+    ],
+    "cons": [
+      "Credit risk if underlying issuers default or are downgraded",
+      "Returns fluctuate with interest rate changes",
+      "Not covered by DICGC insurance like bank deposits"
+    ]
+  },
+  {
+    "id": "inv-008",
+    "country": "US",
+    "name": "S&P 500 Index Fund (Vanguard / Fidelity)",
+    "type": "Equity Index Fund",
+    "minAmount": 50,
+    "riskCategory": "moderate",
+    "durationFit": ["medium", "long"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 11.0,
+    "pros": [
+      "Tracks the 500 largest US companies — broad market exposure",
+      "Ultra-low expense ratio (as low as 0.03% with major brokers)",
+      "No lock-in — can be sold on any trading day"
+    ],
+    "cons": [
+      "Subject to market volatility — returns can be negative in recession years",
+      "Short-term capital gains apply if sold within 12 months",
+      "Not suitable if the funds are needed within the next 1–2 years"
+    ]
+  },
+  {
+    "id": "inv-009",
+    "country": "US",
+    "name": "Treasury I-Bond",
+    "type": "Government Savings Bond",
+    "minAmount": 25,
+    "riskCategory": "low",
+    "durationFit": ["medium", "long"],
+    "lockInMonths": 12,
+    "typicalAnnualReturnPct": 5.5,
+    "pros": [
+      "Backed by the US federal government — zero default risk",
+      "Inflation-adjusted returns protect purchasing power over time",
+      "Interest is exempt from state and local income taxes"
+    ],
+    "cons": [
+      "Must hold for at least 12 months; early redemption forfeits 3 months of interest",
+      "Annual purchase limit of $10,000 per Social Security number",
+      "Can only be purchased through TreasuryDirect — not tradable on open market"
+    ]
+  },
+  {
+    "id": "inv-010",
+    "country": "US",
+    "name": "High-Yield Savings Account (HYSA)",
+    "type": "Savings Account",
+    "minAmount": 0,
+    "riskCategory": "low",
+    "durationFit": ["short"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 4.8,
+    "pros": [
+      "FDIC-insured up to $250,000 — effectively risk-free",
+      "Fully liquid — withdraw at any time with no penalties",
+      "Easy to open online with no minimum balance at most banks"
+    ],
+    "cons": [
+      "Interest rates fluctuate with the Federal Reserve benchmark rate",
+      "Returns typically lag inflation over long periods",
+      "Not intended as a long-term investment vehicle"
+    ]
+  },
+  {
+    "id": "inv-011",
+    "country": "US",
+    "name": "Small-Cap Growth ETF (Russell 2000)",
+    "type": "Exchange-Traded Fund",
+    "minAmount": 50,
+    "riskCategory": "high",
+    "durationFit": ["long"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 14.0,
+    "pros": [
+      "Exposure to ~2,000 smaller US companies with high growth potential",
+      "No lock-in — fully tradable on any exchange trading day",
+      "Diversification across small-cap reduces single-stock risk"
+    ],
+    "cons": [
+      "Significantly higher volatility than large-cap indices",
+      "Can experience drawdowns of 40–60% during bear markets",
+      "Best held for 7+ years to average out short-term volatility"
+    ]
+  },
+  {
+    "id": "inv-012",
+    "country": "US",
+    "name": "Corporate Bond ETF (Investment Grade)",
+    "type": "Bond ETF",
+    "minAmount": 50,
+    "riskCategory": "moderate",
+    "durationFit": ["short", "medium"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 6.5,
+    "pros": [
+      "Higher yield than Treasury bonds with managed credit risk",
+      "Traded like a stock — liquid and accessible on any trading day",
+      "Diversifies a portfolio that already holds equity index funds"
+    ],
+    "cons": [
+      "Bond prices fall when interest rates rise",
+      "Corporate bonds carry default risk not present in US Treasuries",
+      "Dividend income subject to ordinary income tax rates"
+    ]
+  },
+  {
+    "id": "inv-013",
+    "country": "UK",
+    "name": "FTSE 100 Index Fund (Vanguard / iShares)",
+    "type": "Equity Index Fund",
+    "minAmount": 25,
+    "riskCategory": "moderate",
+    "durationFit": ["medium", "long"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 8.5,
+    "pros": [
+      "Tracks the 100 largest companies listed on the London Stock Exchange",
+      "Low ongoing charge figure (OCF) — typically 0.07–0.20% per year",
+      "Internationally diversified revenue base reduces UK-specific risk"
+    ],
+    "cons": [
+      "Returns are subject to market fluctuations and currency risk",
+      "FTSE 100 is heavily weighted toward financials and energy sectors",
+      "Not appropriate if funds are needed within the next 2–3 years"
+    ]
+  },
+  {
+    "id": "inv-014",
+    "country": "UK",
+    "name": "Cash ISA (Fixed Rate)",
+    "type": "Cash ISA",
+    "minAmount": 1,
+    "riskCategory": "low",
+    "durationFit": ["short", "medium"],
+    "lockInMonths": 12,
+    "typicalAnnualReturnPct": 5.1,
+    "pros": [
+      "All interest earned is completely free of UK income tax",
+      "FSCS-protected up to £85,000 per institution",
+      "Simple to open — available via most high-street and online banks"
+    ],
+    "cons": [
+      "Fixed-rate terms mean early withdrawal typically incurs a loss penalty",
+      "Annual ISA allowance capped at £20,000 per tax year",
+      "Returns may trail inflation depending on the interest rate environment"
+    ]
+  },
+  {
+    "id": "inv-015",
+    "country": "UK",
+    "name": "Premium Bonds (National Savings)",
+    "type": "Government Savings",
+    "minAmount": 25,
+    "riskCategory": "low",
+    "durationFit": ["short"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 4.4,
+    "pros": [
+      "100% backed by HM Treasury — no risk of losing principal",
+      "Monthly prize draws offer the chance of tax-free prizes up to £1 million",
+      "Fully accessible — encashment requests processed within 3 business days"
+    ],
+    "cons": [
+      "Returns are probabilistic — some holders earn well below the prize fund rate",
+      "Maximum holding capped at £50,000 per person",
+      "Not inflation-linked — purchasing power erodes if prizes fall short of inflation"
+    ]
+  },
+  {
+    "id": "inv-016",
+    "country": "UK",
+    "name": "Stocks & Shares ISA (Global Equity)",
+    "type": "Stocks & Shares ISA",
+    "minAmount": 100,
+    "riskCategory": "high",
+    "durationFit": ["long"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 12.0,
+    "pros": [
+      "All capital gains and dividends are completely tax-free within the ISA wrapper",
+      "Access to global equity markets via low-cost tracker funds",
+      "Annual allowance of £20,000 enables meaningful tax-sheltered growth"
+    ],
+    "cons": [
+      "Market value can fall significantly in the short term",
+      "Returns are not guaranteed and depend on global market performance",
+      "Best treated as a long-term investment with a 5–10 year horizon"
+    ]
+  },
+  {
+    "id": "inv-017",
+    "country": "UK",
+    "name": "UK Corporate Bond Fund (Short Duration)",
+    "type": "Bond Fund",
+    "minAmount": 100,
+    "riskCategory": "moderate",
+    "durationFit": ["short", "medium"],
+    "lockInMonths": 0,
+    "typicalAnnualReturnPct": 5.8,
+    "pros": [
+      "Higher yield than gilts or Cash ISAs with diversified credit exposure",
+      "Short duration reduces interest rate sensitivity compared to long-bond funds",
+      "Can be held inside an ISA wrapper for tax-efficient income"
+    ],
+    "cons": [
+      "Corporate bond prices fall when UK interest rates rise",
+      "Credit risk if underlying issuers are downgraded or default",
+      "Not covered by FSCS insurance in the same way as bank deposits"
+    ]
+  }
+]

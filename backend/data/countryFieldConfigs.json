@@ -1,0 +1,176 @@
+{
+  "IN": {
+    "name": "India",
+    "currency": { "symbol": "₹", "code": "INR", "locale": "en-IN" },
+    "gpaLabel": "GPA / CGPA",
+    "gpaNote": "out of 10",
+    "gpaPlaceholder": "e.g. 8.2",
+    "digilocker": true,
+    "fields": [
+      {
+        "id": "casteCategory",
+        "label": "Caste Category",
+        "type": "select",
+        "options": ["General", "OBC", "SC", "ST", "EWS"],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "religion",
+        "label": "Religion",
+        "type": "select",
+        "options": ["Hindu", "Muslim", "Christian", "Sikh", "Buddhist", "Jain", "Other / Prefer not to say"],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "disability",
+        "label": "Disability Status",
+        "type": "select",
+        "options": ["None / Not disclosed", "Locomotor disability", "Visual impairment", "Hearing impairment", "Intellectual disability", "Other"],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      }
+    ]
+  },
+  "US": {
+    "name": "United States",
+    "currency": { "symbol": "$", "code": "USD", "locale": "en-US" },
+    "gpaLabel": "GPA",
+    "gpaNote": "out of 4.0 scale",
+    "gpaPlaceholder": "e.g. 3.8",
+    "digilocker": false,
+    "fields": [
+      {
+        "id": "raceEthnicity",
+        "label": "Race / Ethnicity",
+        "type": "select",
+        "options": [
+          "American Indian or Alaska Native",
+          "Asian",
+          "Black or African American",
+          "Hispanic or Latino",
+          "Native Hawaiian or Other Pacific Islander",
+          "White",
+          "Two or more races",
+          "Prefer not to say"
+        ],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "firstGenCollege",
+        "label": "First-generation college student?",
+        "type": "boolean",
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "veteranStatus",
+        "label": "Veteran or dependent of a veteran?",
+        "type": "boolean",
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "pellEligible",
+        "label": "Pell Grant eligibility / income bracket",
+        "type": "select",
+        "options": [
+          "Pell-eligible (family income < $27,000)",
+          "Partial Pell ($27,000 – $60,000)",
+          "Not Pell-eligible (> $60,000)",
+          "Prefer not to say"
+        ],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      }
+    ]
+  },
+  "UK": {
+    "name": "United Kingdom",
+    "currency": { "symbol": "£", "code": "GBP", "locale": "en-GB" },
+    "gpaLabel": "Degree / Grade",
+    "gpaNote": "enter as percentage (e.g. 72 for 72%)",
+    "gpaPlaceholder": "e.g. 72",
+    "digilocker": false,
+    "fields": [
+      {
+        "id": "householdIncomeBracket",
+        "label": "Household Income Bracket (annual)",
+        "type": "select",
+        "options": [
+          "Below £25,000",
+          "£25,000 – £42,500",
+          "£42,500 – £62,500",
+          "Above £62,500",
+          "Prefer not to say"
+        ],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "careExperienced",
+        "label": "Care-experienced status",
+        "type": "boolean",
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "disability",
+        "label": "Disability Status",
+        "type": "select",
+        "options": [
+          "None / Not disclosed",
+          "Physical / mobility",
+          "Sensory (visual or hearing)",
+          "Mental health condition",
+          "Cognitive or learning disability",
+          "Other"
+        ],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      }
+    ]
+  },
+  "default": {
+    "name": "Other",
+    "currency": { "symbol": "$", "code": "USD", "locale": "en-US" },
+    "gpaLabel": "GPA / Academic Score",
+    "gpaNote": "on a 0–10 scale (normalise if needed)",
+    "gpaPlaceholder": "e.g. 8.0",
+    "digilocker": false,
+    "fields": [
+      {
+        "id": "nationality",
+        "label": "Nationality",
+        "type": "text",
+        "placeholder": "e.g. Nigerian, Brazilian, Filipino",
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "residencyStatus",
+        "label": "Residency Status",
+        "type": "select",
+        "options": ["Citizen", "Permanent Resident", "Student / Temporary Visa", "Refugee / Asylum Seeker", "Other"],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      },
+      {
+        "id": "incomeBracket",
+        "label": "General Income Bracket (annual, USD equivalent)",
+        "type": "select",
+        "options": [
+          "Below $10,000",
+          "$10,000 – $30,000",
+          "$30,000 – $60,000",
+          "Above $60,000",
+          "Prefer not to say"
+        ],
+        "skippable": true,
+        "skipNote": "Skipping may reduce your number of matched scholarships."
+      }
+    ]
+  }
+}
